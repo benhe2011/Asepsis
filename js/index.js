@@ -1,5 +1,5 @@
 /* API KEY value for breezometer data*/
-const BREEZE_API_KEY = "b1db2002f7464d81a9707fb36213a0c3";
+const BREEZE_API_KEY = "353eda9f828f4edf91334ebd5f44ea18";
 const GOOGLE_API_KEY = "AIzaSyAyHe7T4ihQEx_jvFqpq2-5qRZ915G0dnE";
 
 /* location constants */
