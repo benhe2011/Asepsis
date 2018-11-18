@@ -1,35 +1,70 @@
-#mapContain{
+.header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.caption {
+  padding-bottom: 30px;
+}
+
+#mapContain {
   padding-top: 20;
   padding-right: 100px;
   padding-left: 100px;
   height: 90%;
+  padding-bottom: 50px;
 }
 
 #map {
   height: 100%;
 }
 
-#mapInfo{
+#mapInfo {
   display: none;
   height: 100%;
   color: white;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 30px;
   letter-spacing: 2px;
 }
 
+.condition {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.aqi {
+  margin-top: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#insertCOND,
+#insertPOL,
+#insertAQI {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.line {
+  margin-top: 30px;
+  width: 50%;
+}
+
 #circle {
-    border-radius: 50%;
-    border-color: white;
-    width: 550px;
-    height: 550px;
-    background: none;
-    text-align: center;
-    font-size: 70px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border-color: white;
+  width: 100px;
+  height: 100px;
+  background: none;
+  text-align: center;
 }
 
 /* Optional: Makes the sample page fill the window. */
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;

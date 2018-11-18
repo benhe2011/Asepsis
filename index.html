@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
   <title>Asepsis</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -24,11 +24,11 @@
 
   <!-- NAVBAR -->
   <div class='container-fluid myNavbar'>
-    <div class='container-fluid logo col-sm-6'>
+    <div class='container-fluid logo col-sm-3'>
       <p class='asepsis'>a · s e p · s i s</p>
       <p>breathe safe.</p>
     </div>
-      <div class='nav-list text-right col-sm-6'>
+      <div class='nav-list text-right col-sm-9'>
         <ul>
           <div class='move'>
             <li class='tab'> <a href='index.html'> map </a> </li>
@@ -46,19 +46,28 @@
       </div>
     </div>
 
+    <div class='text-center'>
+      <h1 class='header'>what's the air quality on your uc campus?</h1>
+      <p class='caption'> click a marker to find out </p>
+    </div>
 
     <!-- GOOGLE MAP -->
     <form class='container-fluid' id="mapContain">
       <div class='container-fluid col-md-6' id="map"></div>
       <div align=center class='container-fluid col-md-6' id='mapInfo'>
+        <br> <br> <br> <br> <br>
+        <hr class='line'>
         <div align= center id="circle">
-          <br></br>
-          AREA AQI:
+          <br>
+          <p class='aqi'> AQI </p>
           <p id='insertAQI'></p>
         </div>
-        <br></br>
-        AIR CONDITION: <p id='insertCOND'></p>
-        PRIMARY POLLUTION: <p id='insertPOL'></p>
+        <br>
+        <p class='condition'>AIR CONDITION:</p>
+        <p id='insertCOND'></p>
+        <p class='condition'> PRIMARY POLLUTION: </p>
+        <p id='insertPOL'></p>
+        <hr class='line'>
       </div>
     </form>
 
