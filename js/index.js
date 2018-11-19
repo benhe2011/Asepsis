@@ -1,11 +1,9 @@
+//API keys not included so that I don't get randomly charged for uploading to GitHub
 /* API KEY value for breezometer data*/
-<<<<<<< HEAD
-const BREEZE_API_KEY = "353eda9f828f4edf91334ebd5f44ea18";
-const GOOGLE_API_KEY = "AIzaSyAyHe7T4ihQEx_jvFqpq2-5qRZ915G0dnE";
-=======
-const BREEZE_API_KEY = '353eda9f828f4edf91334ebd5f44ea18';
-const GOOGLE_API_KEY = 'AIzaSyAyHe7T4ihQEx_jvFqpq2-5qRZ915G0dnE';
->>>>>>> 0615c152c68a90965f47f5f224bfdcc46de535ba
+const BREEZE_API_KEY = ''; //'353eda9f828f4edf91334ebd5f44ea18';
+/* API KEY value for google maps data*/
+const GOOGLE_API_KEY = ''; //'AIzaSyAyHe7T4ihQEx_jvFqpq2-5qRZ915G0dnE';
+
 
 /* location constants */
 const UCLA_LAT = 34.0689;
